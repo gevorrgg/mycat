@@ -27,7 +27,6 @@ static ssize_t try_write(int fd_from, int fd_to, enum Error *err)
 	while (true)
 	{
 		ssize_t read_count;
-
 	
 		read_count = read(fd_from, buf, sizeof(buf));
 
